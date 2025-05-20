@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FundMe DApp</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>FundMe DApp</h1>
+      <div class="card">
+        <button id="connectButton">Connect Wallet</button>
+        <div class="input-group">
+          <input
+            id="ethAmount"
+            type="number"
+            placeholder="Amount in ETH"
+            min="0"
+            step="any"
+          />
+          <button id="fundButton">Fund</button>
+        </div>
+        <button id="withdrawButton">Withdraw</button>
+        <button id="balanceButton">Get Contract Balance</button>
+        <div id="balanceDisplay"></div>
+        <div id="status"></div>
+      </div>
+    </div>
+  </body>
+</html>

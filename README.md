@@ -1,2 +1,2 @@
 # FundMe-frontend
-Frontend for the Fund me reop
+Frontend for the Fund me contract
